@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodetalle"
+    tools:context=".DetalleJugador">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:background="#61000000"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="@drawable/formadetalle"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!--IMAGEN DETALLE-->
+        <ImageView
+            android:id="@+id/imagenDetalle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center" />
+
+        <!--TITULO-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/zombie"
+            android:gravity="center"
+            android:text="@string/informacionDetalle"
+            android:textColor="#FFC107"
+            android:textSize="20sp" />
+
+        <!--NOMBRE DETALLE-->
+        <TextView
+            android:id="@+id/nombreDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/nombreDetalle"
+            android:textStyle="bold"
+            android:textColor="#C2F686"
+            android:textSize="20sp" />
+
+        <!--PUNTAJE DETALLE-->
+        <TextView
+            android:id="@+id/puntajeDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="@string/puntajeDetalle"
+            android:textColor="#FDB8B3"
+            android:textSize="18sp" />
+
+        <!--CORREO DETALLE-->
+        <TextView
+            android:id="@+id/correoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/correoDetalle"
+            android:textColor="#F0F2F3"
+            android:textSize="18sp" />
+
+        <!--EDAD DETALLE-->
+        <TextView
+            android:id="@+id/edadDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/edadDetalle"
+            android:textColor="#F0F2F3"
+            android:textSize="18sp" />
+
+        <!--PAIS DETALLE-->
+        <TextView
+            android:id="@+id/paisDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/paisDetalle"
+            android:textColor="#F0F2F3"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

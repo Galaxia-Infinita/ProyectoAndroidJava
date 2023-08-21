@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "555612533904",
+    "project_id": "juego-zombie-d5766",
+    "storage_bucket": "juego-zombie-d5766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555612533904:android:4a21646dda8506c0cb9415",
+        "android_client_info": {
+          "package_name": "pe.com.minijuegozombies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555612533904-7pmossuobhu0su8vc2mh5ifhg7hr2ar1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.com.minijuegozombies",
+            "certificate_hash": "8b94dd686076b9cee39f615957449e25e2988b3f"
+          }
+        },
+        {
+          "client_id": "555612533904-c5ujk4io0f9qdl80i6ivn8953q592bli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM1PCC-1z1eU60NJ1cXNM0DOmvED4byGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555612533904-c5ujk4io0f9qdl80i6ivn8953q592bli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

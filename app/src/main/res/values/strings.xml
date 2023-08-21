@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Mazo Zombies</string>
+
+    <!--ACTIVIDAD MAIN-->
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegistro">REGISTRO</string>
+
+    <!--ACTIVIDAD REGISTRO-->
+    <string name="correoEt">Correo Electronico</string>
+    <string name="passEt">Contraseña</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="edadEt">Edad</string>
+    <string name="paisEt">Pais</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Regitrar">REGISTRAR</string>
+
+    <!--ACTIVIDAD MENU-->
+    <string name="miPerfilTxt">Mi Perfil</string>
+    <string name="miPuntuacionTxt">Puntuacion</string>
+    <string name="zombies">--</string>
+    <string name="uid">--</string>
+    <string name="correo">--</string>
+    <string name="nombre">--</string>
+    <string name="edad">--</string>
+    <string name="pais">--</string>
+    <string name="menuTxt">Menu</string>
+
+    <string name="jugarBtn">Jugar</string>
+    <string name="editarBtn">Editar </string>
+    <string name="cambiarPassBtn">Cambiar Password</string>
+    <string name="puntuacionesBtn">Puntaciones</string>
+    <string name="acercaDeBtn">Acerca de</string>
+    <string name="cerrarSesion">Cerrar Sesion</string>
+
+    <!--ESCENARIO-->
+    <string name="TvContador">0</string>
+    <string name="TvNombre">-----</string>
+    <string name="TvTiempo">0S</string>
+
+    <!--PANTALLA-->
+    <string name="AnchoTv">--</string>
+    <string name="AltoTv">--</string>
+
+    <!--GAMEOVER-->
+    <string name="seAcabotxt">¡Se acabo el tiempo!</string>
+    <string name="hasMatadotxt">Has Matado:</string>
+    <string name="numerotxt">--</string>
+    <string name="jugarDeNuevo">JUGAR DE NUEVO</string>
+    <string name="irMenu">MENU</string>
+    <string name="puntajes">VER PUNTAJES</string>
+
+    <!--DATOS DEL JUGADOR EN LISTA-->
+    <string name="nombreJugador">Nombre</string>
+    <string name="correoJugador">Correo</string>
+    <string name="puntajeJugador">Puntaje</string>
+    <string name="edadJugador">Edad</string>
+    <string name="paisJugador">Pais</string>
+
+    <!--DETALLE DEL JUGADOR-->
+    <string name="informacionDetalle">INFORMACION DEL JUGADOR</string>
+    <string name="nombreDetalle">Nombre</string>
+    <string name="correoDetalle">Correo</string>
+    <string name="puntajeDetalle">Puntaje</string>
+    <string name="edadDetalle">Edad</string>
+    <string name="paisDetalle">Pais</string>
+
+    <!--CAMBIO DE CONTRASEÑA-->
+    <string name="actualPass">Actual Password</string>
+    <string name="nuevoPass">Nuevo Password</string>
+    <string name="cambiarPass">Cambiar Password</string>
+
+    <!--ACERCA DE-->
+    <string name="desarrolladoPorTxt">Desarrollado por</string>
+    <string name="devTxt">Josue</string>
+    <string name="ok">ok</string>
+</resources>

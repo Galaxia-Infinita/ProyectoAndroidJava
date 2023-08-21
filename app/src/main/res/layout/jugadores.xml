@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:elevation="2dp"
+    android:focusable="true"
+    app:cardBackgroundColor="#6DF854"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--IMAGEN DE PERFIL-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagenJugador"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jugador" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--NOMBRE JUGADOR-->
+            <TextView
+                android:id="@+id/nombreJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:text="@string/nombreJugador"
+                android:textColor="#FF5722"
+                android:textSize="20sp" />
+
+            <!--CORREO JUGADOR-->
+            <TextView
+                android:id="@+id/correoJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:text="@string/correoJugador"
+                android:textColor="#FF5722"
+                android:textSize="20sp" />
+
+            <!--PUNTAJE JUGADOR-->
+            <TextView
+                android:id="@+id/puntajeJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:text="@string/puntajeJugador"
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!--EDAD JUGADOR-->
+            <TextView
+                android:id="@+id/edadJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edadJugador"
+                android:visibility="gone"/>
+
+            <!--PAIS JUGADOR-->
+            <TextView
+                android:id="@+id/paisJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paisJugador"
+                android:visibility="gone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

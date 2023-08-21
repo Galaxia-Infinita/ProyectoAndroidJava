@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/puntaje"
+    tools:context=".Menu">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--PERFIL-->
+            <TextView
+                android:id="@+id/miPerfilTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/miPerfilTxt"
+                android:textColor="#C4F689"
+                android:textSize="25sp" />
+
+            <!--IMAGEN-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imagenPerfil"
+                android:src="@drawable/jug"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <!--UID-->
+            <TextView
+                android:id="@+id/uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/uid"/>
+
+            <!--Correo-->
+            <TextView
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/correo" />
+
+            <!--Nombre de Usuario-->
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/nombre" />
+
+            <!--EDAD de Usuario-->
+            <TextView
+                android:id="@+id/edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/edad" />
+
+            <!--PAIS de Usuario-->
+            <TextView
+                android:id="@+id/pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/pais" />
+
+            <!--Fecha-->
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/fechaTxt"
+                android:textAlignment="center"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--TXT-->
+        <TextView
+            android:id="@+id/miPuntuacionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/zombie"
+            android:gravity="center"
+            android:text="@string/miPuntuacionTxt"
+            android:textColor="#C4F689"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <!--Zombies-->
+            <TextView
+                android:id="@+id/zombies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/zombies" />
+
+            <!--Imagen-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imagen"
+                android:layout_width="70dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/z"
+                android:layout_height="70dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="225dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/formalogin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/menuTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zombie"
+                android:gravity="center"
+                android:text="@string/menuTxt"
+                android:textColor="#1E1E1E"
+                android:textSize="25sp" />
+
+            <!--JUGAR-->
+            <Button
+                android:id="@+id/jugarBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/b1"
+                android:fontFamily="@font/zombie"
+                android:text="@string/jugarBtn"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--PUNTUACIONES-->
+                <Button
+                    android:id="@+id/puntuacionesBtn"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/botoncircular"
+                    android:drawableLeft="@drawable/b2"
+                    android:textSize="16sp" />
+
+                <!--ACERCA DE-->
+                <Button
+                    android:id="@+id/acercaDeBtn"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/botoncircular"
+                    android:drawableLeft="@drawable/b3"
+                    android:textSize="16sp" />
+
+                <!--EDITAR-->
+                <Button
+                    android:id="@+id/editarBtn"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/botoncircular"
+                    android:drawableLeft="@drawable/b5"
+                    android:textSize="16sp" />
+
+                <!--EDITAR-->
+                <Button
+                    android:id="@+id/cerrarSesion"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botoncircular"
+                    android:drawableLeft="@drawable/b4"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--CAMBIAR CONTRASEÑA-->
+            <Button
+                android:id="@+id/cambiarPassBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="#02FFFFFF"
+                android:text="@string/cambiarPassBtn"
+                android:textColor="#9C27B0"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <!--TXT-->
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

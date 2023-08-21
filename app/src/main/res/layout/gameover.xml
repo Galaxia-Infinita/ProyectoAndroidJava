@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="700dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#471F8E"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/seAcabotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zombie"
+        android:gravity="center"
+        android:text="@string/seAcabotxt"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/hasMatadotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zombie"
+        android:gravity="center"
+        android:text="@string/hasMatadotxt"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/numerotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zombie"
+        android:gravity="center"
+        android:text="@string/numerotxt"
+        android:textColor="#FFFFFF" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        app:lottie_fileName="finjuego.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <Button
+        android:id="@+id/jugarDeNuevo"
+        android:text="@string/jugarDeNuevo"
+        android:layout_width="match_parent"
+        android:background="@drawable/botones"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/puntajes"
+        android:text="@string/puntajes"
+        android:layout_width="match_parent"
+        android:background="@drawable/botones"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/irMenu"
+        android:text="@string/irMenu"
+        android:layout_width="match_parent"
+        android:background="@drawable/botones"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
